@@ -3,7 +3,7 @@
 ##Objective
 Demonstrate implementing least priivilege access to an S3 buckeet using IAM.
 
-## Seervices Used
+## Services Used
 - IAM
 - S3
 
@@ -15,3 +15,11 @@ Demonstrate implementing least priivilege access to an S3 buckeet using IAM.
 ## Key Learning
 Object-Level permissions require specifying:
 arn:aws:s3:::vibesafe/*
+
+## Screenshots
+
+### IAM Policy
+![IAM Policy](screenshots/policy-created.png)
+
+### Access Denied Test
+![Access Denied](screenshots/access-denied.png)
